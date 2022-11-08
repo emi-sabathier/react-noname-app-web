@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import { mediaQueries } from '../../assets/mediaQueries';
 
-export const UIScaffold = styled.div`
-    background-color: green;
+export const UIWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -13,10 +12,10 @@ export const UIScaffold = styled.div`
 `;
 
 export const Card = styled.article`
-    background-color: lightblue;
     width: 100%;
     display: flex;
     flex-direction: column;
+    border: 1px solid #6C6C6C;
     @media ${mediaQueries.tabletLarge} {
         width: 50%;
     }
@@ -27,6 +26,5 @@ export const Card = styled.article`
 
 export const P = styled.p`
     font-size: 16px;
-    background-color: yellow;
     width: 100%;
 `;

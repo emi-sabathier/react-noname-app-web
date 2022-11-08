@@ -5,9 +5,6 @@
 /.pnp
 .pnp.js
 
-# firebase
-firebaseConfig.ts
-
 # testing
 /coverage
 
@@ -16,7 +13,7 @@ firebaseConfig.ts
 
 /.idea
 
-src/config/serviceAccount.json
+src/config
 
 # misc
 .DS_Store
