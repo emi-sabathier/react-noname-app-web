@@ -13,6 +13,8 @@
 
 /.idea
 
+src/config
+
 # misc
 .DS_Store
 .env.local
