@@ -7,7 +7,7 @@ type UINoteCardProps = {
     index: number;
 };
 
-export const UINoteCard = ({ note, index }: UINoteCardProps): ReactElement => {
+export const UINoteCard = ({ note }: UINoteCardProps): ReactElement => {
     return (
         <>
             <Card>
